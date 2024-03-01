@@ -1,0 +1,124 @@
+.container {
+  height: 720px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  max-height: 720px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+.tabs {
+  width: 90px;
+  border: 1px solid #e0e0e0;
+  position: relative;
+}
+.cinemaByIdList {
+  width: 280px;
+
+  border: 1px solid #e0e0e0;
+  border-left: none;
+  overflow-y: scroll;
+}
+/* .cinemaLogoTab {
+  padding: 20px;
+  min-width: unset;
+  position: relative;
+} */
+
+.cinemaLogoTab:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 90%;
+  height: 1px;
+  bottom: 0;
+  background: rgba(238, 238, 238, 0.88);
+}
+.cinemaLogoAvatar {
+  width: 50px;
+  height: 50px;
+}
+.cinemaTenCumRap {
+  color: #108f3e;
+  display: -webkit-box;
+  overflow: hidden;
+  font-weight: 500;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.cinemaDiaChi {
+  color: #757575;
+  display: -webkit-box;
+  overflow: hidden;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.indicatorTabs {
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #00ac4d;
+}
+.cinemaListTab {
+  padding: 0;
+}
+.movieSingle {
+  display: flex;
+  padding: 20px;
+  position: relative;
+}
+.movieSingle::after {
+  width: 80%;
+  bottom: 0;
+  height: 1px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(238, 238, 238, 0.88);
+}
+.phimInfo {
+  width: 555px;
+  padding: 0 20px;
+}
+.limitAge {
+  color: #fff;
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 16px;
+  min-width: 33px;
+  background: #fb4226;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.tenPhim {
+  line-height: 22px;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+.cinemaTabPannel {
+  width: 570px;
+  border: 1px solid #e0e0e0;
+  flex-grow: 1;
+  overflow-y: scroll;
+  border-left: none;
+}
+.ngayGioChieuContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ngayGioChieuButton {
+  color: #fff;
+  background-color: #108f3e;
+  border-radius: 5px;
+  margin: 3px;
+  border: none;
+  transition: all 0.5s;
+}
+.ngayGioChieuButton:hover {
+  background-color: #10e75f;
+}

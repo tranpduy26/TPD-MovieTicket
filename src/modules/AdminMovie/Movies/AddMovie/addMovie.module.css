@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  overflow-y: scroll;
+}
+.bgImg {
+  background-image: url(../../../../../public/img/camera.28441d62ba8d7f0482c5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: grey;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 50px 150px;
+}
+.textArea {
+  margin-top: 30px;
+}
+.formSubmit div {
+  margin-top: 10px;
+}
+.btn {
+  text-align: center;
+}

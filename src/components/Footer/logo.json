@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+
+    "name": "CGV",
+    "url": "./img/logo/cgv.png"
+  },
+  {
+    "id": 2,
+
+    "name": "Galaxy",
+    "url": "./img/logo/galaxycine.png"
+  },
+  {
+    "id": 3,
+
+    "name": "Cinestar",
+    "url": "./img/logo/cinestar.png"
+  },
+  {
+    "id": 4,
+
+    "name": "MegaCS",
+    "url": "./img/logo/megags.png"
+  },
+  {
+    "id": 5,
+
+    "name": "Lotte",
+    "url": "./img/logo/lotte.png"
+  },
+  {
+    "id": 6,
+
+    "name": "DongDa",
+    "url": "./img/logo/dongdacinema.png"
+  },
+  {
+    "id": 7,
+
+    "name": "CNX",
+    "url": "./img/logo/cnx.jpg"
+  },
+  {
+    "id": 8,
+
+    "name": "DCine",
+    "url": "./img/logo/dcine.png"
+  },
+  {
+    "id": 9,
+
+    "name": "123Go",
+    "url": "./img/logo/123go.png"
+  },
+  {
+    "id": 10,
+
+    "name": "Agribank",
+    "url": "./img/logo/AGRIBANK.png"
+  },
+  {
+    "id": 11,
+
+    "name": "BT",
+    "url": "./img/logo/bt.jpg"
+  },
+  {
+    "id": 12,
+
+    "name": "IVB",
+    "url": "./img/logo/IVB.png"
+  },
+  {
+    "id": 13,
+
+    "name": "Payoo",
+    "url": "./img/logo/payoo.jpg"
+  },
+  {
+    "id": 14,
+
+    "name": "Touch",
+    "url": "./img/logo/TOUCH.png"
+  },
+  {
+    "id": 15,
+
+    "name": "Viettin",
+    "url": "./img/logo/VIETTINBANK.png"
+  },
+  {
+    "id": 16,
+
+    "name": "ZaloPay",
+    "url": "./img/logo/zalopay_icon.png"
+  }
+]
